@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Baloo Da 2', cursive;
+    font-family: 'Baloo Da 2';
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
@@ -72,8 +72,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 21px 20px 20px 18px;
-    width: 115px;
-    height: 24px;
     flex-shrink: 0;
     border-radius: 12px;
     background: #F3FBF7;
@@ -90,7 +88,6 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 160%;
-    /* 16px */
 }
 
 .so__card-number {
@@ -112,8 +109,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 21px 20px 20px 18px;
-    width: 115px;
-    height: 24px;
     flex-shrink: 0;
     border-radius: 12px;
     background: #F9F9FF;
@@ -132,8 +127,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 21px 20px 20px 18px;
-    width: 115px;
-    height: 24px;
     flex-shrink: 0;
     border-radius: 12px;
     background: #F9F9FF;
@@ -152,8 +145,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 21px 20px 20px 18px;
-    width: 115px;
-    height: 24px;
     flex-shrink: 0;
     border-radius: 12px;
     background: #FEFAFB;
@@ -225,7 +216,6 @@ body {
 
 .product__card__bottomkey {
     color: var(--black-2, #595F84);
-
     font-family: Plus Jakarta Sans;
     font-size: 12px;
     font-style: normal;
@@ -284,10 +274,6 @@ body {
     border-radius: 8px 8px 0 0;
     background-color: #fff;
 }
-
-
-
-
 
 
 

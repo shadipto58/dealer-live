@@ -72,8 +72,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 21px 20px 20px 18px;
-    width: 115px;
-    height: 24px;
     flex-shrink: 0;
     border-radius: 12px;
     background: #F3FBF7;
@@ -112,8 +110,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 21px 20px 20px 18px;
-    width: 115px;
-    height: 24px;
     flex-shrink: 0;
     border-radius: 12px;
     background: #F9F9FF;
@@ -132,8 +128,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 21px 20px 20px 18px;
-    width: 115px;
-    height: 24px;
     flex-shrink: 0;
     border-radius: 12px;
     background: #F9F9FF;
@@ -152,8 +146,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 21px 20px 20px 18px;
-    width: 115px;
-    height: 24px;
     flex-shrink: 0;
     border-radius: 12px;
     background: #FEFAFB;
@@ -197,7 +189,6 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 160%;
-    /* 17.6px */
 }
 
 .product__card-title-right {
@@ -229,7 +220,6 @@ body {
 
 .product__card__bottomkey {
     color: var(--black-2, #595F84);
-
     font-family: Plus Jakarta Sans;
     font-size: 12px;
     font-style: normal;
@@ -301,7 +291,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 22px 39px 21px 40px;
-    background-color: red;
     border-radius: 20px 20px 0px 0px;
     background: #FFF;
     box-shadow: 0px -5px 50px 0px rgba(0, 45, 94, 0.12);

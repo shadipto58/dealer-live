@@ -8,6 +8,10 @@ body {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .product__details-container {
     width: 100%;
     height: 100vh;
@@ -18,8 +22,6 @@ body {
 
 .popup__container {
     position: relative;
-    width: 320px;
-    height: 536px;
     flex-shrink: 0;
     border-radius: 16px;
     border: 4px solid #FFF;
@@ -67,8 +69,6 @@ body {
 }
 
 .product__rate {
-    width: 258px;
-    height: 51px;
     flex-shrink: 0;
     border-radius: 8px;
     border: 1px solid #EBEDF5;
@@ -162,7 +162,7 @@ body {
     line-height: 22px;
     /* 157.143% */
     display: flex;
-    width: 281px;
+    width: 100%;
     padding: 12px 16px;
     justify-content: center;
     align-items: center;
