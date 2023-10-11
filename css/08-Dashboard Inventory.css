@@ -33,7 +33,10 @@ body {
 
 .name__filter {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .name__filter input {
@@ -52,13 +55,15 @@ body {
     letter-spacing: -0.5px;
     border: none;
     padding-left: 15px;
-    background-image: url(./images/Vector.png);
+    background-image: url(./../images/down-arrow.png);
     background-repeat: no-repeat;
-    background-position: 220px 18px;
+    background-position: 220px 12px;
 }
 
 .filter__icon {
-    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .so__card-wrapper {
@@ -198,8 +203,12 @@ body {
 }
 
 .product__card__bottom {
-    padding: 15px 0 10px 21px;
+    padding: 15px 27px 10px 21px;
+    border-right: 1px solid #F0F4F9;
+}
 
+.product__card__bottom:last-of-type {
+    border: none;
 }
 
 .product__card__bottom h2 {

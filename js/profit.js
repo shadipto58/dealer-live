@@ -21,11 +21,11 @@ $(document).ready(function () {
 
 
 
-  const datapoints = [0, 20, 20, 60, 50, 30];
+  const datapoints = [10, 20, 20, 60, 50, 30, 26];
   const dashboardChart = document.getElementById("dashboard-chart");
 
   const data = {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+    labels: ["Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
     datasets: [
       {
         label: "Cubic interpolation (monotone)",
@@ -73,7 +73,7 @@ $(document).ready(function () {
       scales: {
         x: {
           type: "category",
-          labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+          labels: ["Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
           display: true,
           title: {
             display: true,
@@ -100,11 +100,11 @@ $(document).ready(function () {
 
 
 
-  const datapoints2 = [0, 20, 20, 60, 50, 30];
+  const datapoints2 = [10, 20, 20, 60, 50, 30, 26];
   const dashboardChart2 = document.getElementById("dashboard-chart2");
 
   const data2 = {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+    labels: ["Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
     datasets: [
       {
         label: "Cubic interpolation (monotone)",
@@ -152,7 +152,7 @@ $(document).ready(function () {
       scales: {
         x: {
           type: "category",
-          labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+          labels: ["Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
           display: true,
           title: {
             display: true,

@@ -169,7 +169,6 @@ body {
 
 .profile__name {
     color: var(--black, #222950);
-    text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Baloo Da 2;
     font-size: 14px;

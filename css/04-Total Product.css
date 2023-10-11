@@ -87,12 +87,14 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 22px;
     margin-bottom: 22px;
 }
 
 .total__product-filter-icon {
-    margin-top: 22px;
-    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .total__product-filter-data {
