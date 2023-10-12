@@ -16,7 +16,7 @@ a {
     padding: 37px 25px 35px 27px;
 }
 
-.login__navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,6 +74,7 @@ a {
 
 .option__wrapper {
     display: grid;
+    justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     gap: 17px;
     margin-top: 43px;

@@ -19,10 +19,10 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    gap: 70px;
 }
 
 .navbar__title {
+    width: 100%;
     color: var(--black, #222950);
     text-align: center;
     font-family: Plus Jakarta Sans;

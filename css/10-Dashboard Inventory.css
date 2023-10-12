@@ -15,10 +15,10 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    gap: 75px;
 }
 
 .navbar__title {
+    width: 100%;
     color: var(--black, #222950);
     text-align: center;
     font-family: Plus Jakarta Sans;
@@ -35,19 +35,25 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 14px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.name__filter input {
-    width: 240px;
+.name__field {
+    width: 100%;
+    padding-right: 15px;
+}
+
+.name__field input {
+    width: 100%;
     height: 40px;
     flex-shrink: 0;
     border-radius: 8.65px;
     background: #F8F8FB;
     color: var(--black-2, #595F84);
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Baloo Da 2;
+    font-family: "Baloo Da 2";
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -57,7 +63,7 @@ body {
     padding-left: 15px;
     background-image: url(./../images/down-arrow.png);
     background-repeat: no-repeat;
-    background-position: 220px 18px;
+    background-position: 96% 50%;
 }
 
 .filter__icon {
